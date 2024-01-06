@@ -1,0 +1,73 @@
+﻿@model IEnumerable<MarketingCORE.Models.AnalisisReporte>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <title>Report</title>
+    <style>
+        body {
+            padding: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+            form p {
+                flex: 1 1 100%;
+            }
+
+        table {
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        th, td {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <hr />
+
+    @using (Html.BeginForm("Reporte", "Home", FormMethod.Get))
+    {
+            <form>
+                <p>Fecha Inicio: @Html.TextBox("fi", ViewBag.fi as string)</p>
+                <p>Fecha Vencimiento: @Html.TextBox("fv", ViewBag.fv as string)</p>
+                
+                <input type="submit" value="Generar reporte" />
+            </form>
+    }
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Fecha Inicio</th>
+                <th>Fecha Vencimiento</th>
+                <th>KPI</th>
+                <th>Resultados</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.fechaInicio)</td>
+                    <td>@Html.DisplayFor(modelItem => item.fechaVencimiento)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Nombre)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Resultado)</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

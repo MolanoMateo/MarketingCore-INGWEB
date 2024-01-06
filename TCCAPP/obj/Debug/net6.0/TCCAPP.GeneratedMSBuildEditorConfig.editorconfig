@@ -1,0 +1,141 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TCCAPP
+build_property.RootNamespace = TCCAPP
+build_property.ProjectDir = C:\Users\RR\Documents\Visual Studio 2022\Proyectos\MarketingCORE\TCCAPP\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\RR\Documents\Visual Studio 2022\Proyectos\MarketingCORE\TCCAPP
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/RR/Documents/Visual Studio 2022/Proyectos/MarketingCORE/TCCAPP/Views/Acceso/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RR/Documents/Visual Studio 2022/Proyectos/MarketingCORE/TCCAPP/Views/Home/Busqueda.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCdXNxdWVkYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RR/Documents/Visual Studio 2022/Proyectos/MarketingCORE/TCCAPP/Views/Home/Enlace.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFbmxhY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RR/Documents/Visual Studio 2022/Proyectos/MarketingCORE/TCCAPP/Views/Home/Guia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxHdWlhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RR/Documents/Visual Studio 2022/Proyectos/MarketingCORE/TCCAPP/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RR/Documents/Visual Studio 2022/Proyectos/MarketingCORE/TCCAPP/Views/Home/Live.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMaXZlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RR/Documents/Visual Studio 2022/Proyectos/MarketingCORE/TCCAPP/Views/Home/Pesaje.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQZXNhamUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RR/Documents/Visual Studio 2022/Proyectos/MarketingCORE/TCCAPP/Views/Home/ViewError.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWaWV3RXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RR/Documents/Visual Studio 2022/Proyectos/MarketingCORE/TCCAPP/Views/Logs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RR/Documents/Visual Studio 2022/Proyectos/MarketingCORE/TCCAPP/Views/NoEnlazadoes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9FbmxhemFkb2VzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RR/Documents/Visual Studio 2022/Proyectos/MarketingCORE/TCCAPP/Views/NoEnlazadoes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9FbmxhemFkb2VzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RR/Documents/Visual Studio 2022/Proyectos/MarketingCORE/TCCAPP/Views/NoEnlazadoes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9FbmxhemFkb2VzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RR/Documents/Visual Studio 2022/Proyectos/MarketingCORE/TCCAPP/Views/NoEnlazadoes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9FbmxhemFkb2VzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RR/Documents/Visual Studio 2022/Proyectos/MarketingCORE/TCCAPP/Views/NoEnlazadoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9FbmxhemFkb2VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RR/Documents/Visual Studio 2022/Proyectos/MarketingCORE/TCCAPP/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RR/Documents/Visual Studio 2022/Proyectos/MarketingCORE/TCCAPP/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RR/Documents/Visual Studio 2022/Proyectos/MarketingCORE/TCCAPP/Views/Usuarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RR/Documents/Visual Studio 2022/Proyectos/MarketingCORE/TCCAPP/Views/Usuarios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RR/Documents/Visual Studio 2022/Proyectos/MarketingCORE/TCCAPP/Views/Usuarios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RR/Documents/Visual Studio 2022/Proyectos/MarketingCORE/TCCAPP/Views/Usuarios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RR/Documents/Visual Studio 2022/Proyectos/MarketingCORE/TCCAPP/Views/Usuarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RR/Documents/Visual Studio 2022/Proyectos/MarketingCORE/TCCAPP/Views/ViewModelReportes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlld01vZGVsUmVwb3J0ZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RR/Documents/Visual Studio 2022/Proyectos/MarketingCORE/TCCAPP/Views/ViewModelReportes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlld01vZGVsUmVwb3J0ZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RR/Documents/Visual Studio 2022/Proyectos/MarketingCORE/TCCAPP/Views/ViewModelReportes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlld01vZGVsUmVwb3J0ZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RR/Documents/Visual Studio 2022/Proyectos/MarketingCORE/TCCAPP/Views/ViewModelReportes/DetallesPesaje.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlld01vZGVsUmVwb3J0ZXNcRGV0YWxsZXNQZXNhamUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RR/Documents/Visual Studio 2022/Proyectos/MarketingCORE/TCCAPP/Views/ViewModelReportes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlld01vZGVsUmVwb3J0ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RR/Documents/Visual Studio 2022/Proyectos/MarketingCORE/TCCAPP/Views/ViewModelReportes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlld01vZGVsUmVwb3J0ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RR/Documents/Visual Studio 2022/Proyectos/MarketingCORE/TCCAPP/Views/ViewModelReportes/Reporte.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlld01vZGVsUmVwb3J0ZXNcUmVwb3J0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RR/Documents/Visual Studio 2022/Proyectos/MarketingCORE/TCCAPP/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RR/Documents/Visual Studio 2022/Proyectos/MarketingCORE/TCCAPP/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RR/Documents/Visual Studio 2022/Proyectos/MarketingCORE/TCCAPP/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-7aylc4ijjf

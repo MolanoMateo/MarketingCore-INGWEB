@@ -1,0 +1,77 @@
+﻿@model MarketingCORE.Models.ResultadosCamp
+
+@{
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <title>Resultados</title>
+</head>
+<body>
+
+    <div>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.campana.Objetivo)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.campana.Objetivo)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.campana.Canal)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.campana.Canal)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.campana.Presupuesto)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.campana.Presupuesto)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.campana.Frecuencia)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.campana.Frecuencia)
+            </dd>
+        </dl>
+        <hr />
+        <form asp-action="Create" asp-controller="KPIXCampanas">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        @using (Html.BeginForm())
+        {
+            
+                
+                <div class="form-group">
+                    @Html.LabelFor(model => model.kpi.Nombre, "KPI:")
+                    @Html.DropDownListFor(model => model.kPIXCampana.KPIID, Model.listkpi, "Seleccione un KPI", new { @class = "form-control" })
+                </div>
+                <div data-mdb-input-init class="form-group">
+                    <label asp-for="kPIXCampana.Resultado" class="control-label"></label>
+                    <input asp-for="kPIXCampana.Resultado" class="form-control" />
+                    <span asp-validation-for="kPIXCampana.Resultado" class="text-danger"></span>
+                </div>
+                <div style="display:none" class="form-group">
+                    <input value="@Model.campana.Id" asp-for="kPIXCampana.CampanaID" class="form-control" />
+                    <span asp-validation-for="kPIXCampana.CampanaID" class="text-danger"></span>
+                </div>
+                <hr />
+                <div class="form-group">
+                    <input type="submit" value="Registrar Resultado" class="btn btn-primary" />
+                </div>
+            
+        }
+        </form>
+        <div>
+            <a asp-controller="Campanas" asp-action="Index">Finalizar</a>
+        </div>
+    </div>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+﻿@model IEnumerable<MarketingCORE.Models.Logic>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <title>CAMPAÑA LOGIC</title>
+    <style>
+        body {
+            padding: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+            form p {
+                flex: 1 1 100%;
+            }
+
+        table {
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        th, td {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <hr />
+
+    @using (Html.BeginForm("LOGIC", "Home", FormMethod.Get))
+    {
+        @using (Html.BeginForm())
+        {
+            <form>
+                <p>Objetivo: @Html.TextBox("objetivo", ViewBag.objetivo as string)</p>
+                <p>Presupuesto: @Html.TextBox("presupuesto", ViewBag.presupuesto as float?)</p>
+                <p>Edad: @Html.TextBox("edad", ViewBag.edad as int?)</p>
+                <p>Genero: @Html.TextBox("genero", ViewBag.genero as string)</p>
+                <p>Ingresos: @Html.TextBox("ingresos", ViewBag.ingresos as float?)</p>
+                <p>Geografía: @Html.TextBox("geo", ViewBag.geo as string)</p>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.First().kpi.Nombre, "KPI:")
+                    @Html.DropDownListFor(model => Mod.ix, Model.First().listkpi, "Seleccione un KPI", new { @class = "form-control" })
+                </div>
+
+                <input type="submit" value="Filtrar" />
+            </form>
+        }
+    }
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Objetivo</th>
+                <th>Canal</th>
+                <th>Presupuesto</th>
+                <th>Frecuencia</th>
+                <th>Buyer</th>
+                <th>Edad</th>
+                <th>Genero</th>
+                <th>Ingresos</th>
+                <th>Intereses</th>
+                <th>Frustraciones</th>
+                <th>Geografía</th>
+                <th>KPI</th>
+                <th>Resultados</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.campana.Objetivo)</td>
+                    <td>@Html.DisplayFor(modelItem => item.campana.Canal)</td>
+                    <td>@Html.DisplayFor(modelItem => item.campana.Presupuesto)</td>
+                    <td>@Html.DisplayFor(modelItem => item.campana.Frecuencia)</td>
+                    <td>@Html.DisplayFor(modelItem => item.buyer.Nombre)</td>
+                    <td>@Html.DisplayFor(modelItem => item.buyer.Edad)</td>
+                    <td>@Html.DisplayFor(modelItem => item.buyer.Genero)</td>
+                    <td>@Html.DisplayFor(modelItem => item.buyer.Ingresos)</td>
+                    <td>@Html.DisplayFor(modelItem => item.buyer.Intereses)</td>
+                    <td>@Html.DisplayFor(modelItem => item.buyer.Frustraciones)</td>
+                    <td>@Html.DisplayFor(modelItem => item.buyer.Geografia)</td>
+                    <td>@Html.DisplayFor(modelItem => item.kpi.Nombre)</td>
+                    <td>@Html.DisplayFor(modelItem => item.kPIXCampana.Resultado)</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

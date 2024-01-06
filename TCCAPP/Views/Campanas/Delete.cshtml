@@ -1,0 +1,26 @@
+﻿@model MarketingCORE.Models.Campana
+
+@{
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Eliminar Campaña</title>
+</head>
+<body>
+
+<h2>Desea borrar el registro?</h2>
+<div>
+    
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Eliminar Permanentemente" class="btn btn-danger" /> |
+        <a asp-action="Index">Cancelar</a>
+    </form>
+</div>
+</body>
+</html>

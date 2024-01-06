@@ -1,0 +1,66 @@
+﻿@model MarketingCORE.Models.ResultadosCamp
+
+@{
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Resultados Campaña</title>
+</head>
+<body>
+
+<div>
+    <hr />
+    <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.campana.Objetivo)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.campana.Objetivo)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.campana.Canal)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.campana.Canal)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.campana.Presupuesto)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.campana.Presupuesto)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.campana.Frecuencia)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.campana.Frecuencia)
+            </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.kpi.Nombre)
+        </dt>
+        <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.kpi.Nombre)
+        </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.kpi.Descripcion)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.kpi.Descripcion)
+            </dd>
+        <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.kPIXCampana.Resultado)
+        </dt>
+        <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.kPIXCampana.Resultado)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-asp-controller="Campanas" asp-action="Index">Volver</a>
+</div>
+</body>
+</html>

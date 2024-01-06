@@ -1,0 +1,124 @@
+﻿@model MarketingCORE.Models.campanaView
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Nueva Campaña</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <style>
+        .gradient-custom {
+            background: #f6d365;
+            background: -webkit-linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1));
+            background: linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1));
+        }
+    </style>
+</head>
+<body>
+
+    <section class="vh-100" style="background-color: #f4f5f7;">
+        <div class="container py-5 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col col-lg-6 mb-4 mb-lg-0">
+                    <div class="card mb-3" style="border-radius: .5rem;">
+                        <div class="row g-0">
+                            <div class="col-md-4 gradient-custom text-center text-white"
+                                 style="border-top-left-radius: .5rem; border-bottom-left-radius: .5rem;">
+                                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava1-bg.webp"
+                                     alt="Avatar" class="img-fluid my-5" style="width: 80px;" />
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body p-4">
+                                    <h6>Información de Campaña</h6>
+                                    <hr class="mt-0 mb-4">
+
+                                    <form asp-action="Create" asp-controller="Campanas">
+                                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                                        <div class="row pt-1">
+                                            <div class="col">
+                                                <div data-mdb-input-init class="form-outline">
+                                                    <label asp-for="campana.Objetivo" class="control-label"></label>
+                                                    <input asp-for="campana.Objetivo" class="form-control" />
+                                                    <span asp-validation-for="campana.Objetivo" class="text-danger"></span>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div data-mdb-input-init class="form-outline">
+                                                    <label asp-for="campana.Canal" class="control-label"></label>
+                                                    <input asp-for="campana.Canal" class="form-control" />
+                                                    <span asp-validation-for="campana.Canal" class="text-danger"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <hr />
+
+                                        <div class="row pt-1">
+                                            <div class="col">
+                                                <div data-mdb-input-init class="form-outline">
+                                                    <label asp-for="campana.Presupuesto" class="control-label"></label>
+                                                    <input asp-for="campana.Presupuesto" class="form-control" />
+                                                    <span asp-validation-for="campana.Presupuesto" class="text-danger"></span>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div data-mdb-input-init class="form-outline">
+                                                    <label asp-for="campana.Frecuencia" class="control-label"></label>
+                                                    <input asp-for="campana.Frecuencia" class="form-control" />
+                                                    <span asp-validation-for="campana.Frecuencia" class="text-danger"></span>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div data-mdb-input-init class="form-outline">
+                                                    <label asp-for="campana.fechaInicio" class="control-label"></label>
+                                                    <input asp-for="campana.fechaInicio" class="form-control" />
+                                                    <span asp-validation-for="campana.fechaInicio" class="text-danger"></span>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div data-mdb-input-init class="form-outline">
+                                                    <label asp-for="campana.fechaVencimiento" class="control-label"></label>
+                                                    <input asp-for="campana.fechaVencimiento" class="form-control" />
+                                                    <span asp-validation-for="campana.fechaVencimiento" class="text-danger"></span>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div data-mdb-input-init class="form-outline">
+                                                    @using (Html.BeginForm())
+                                                    {
+                                                        <div class="form-group">
+                                                            @Html.LabelFor(model => model.campana.BuyerID, "Buyer:")
+                                                            @Html.DropDownListFor(model => model.campana.BuyerID, Model.opNomBuy, "Seleccione un Buyer", new { @class = "form-control" })
+                                                        </div>
+                                                        <hr />
+                                                        <div class="form-group">
+                                                            <input type="submit" value="Crear" class="btn btn-primary" />
+                                                        </div>
+                                                    }
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+
+                                    <div>
+                                        <a asp-action="Index">Volver</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
