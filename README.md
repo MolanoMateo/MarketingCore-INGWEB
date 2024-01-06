@@ -1,3 +1,6 @@
 # MarketingCore-INGWEB
 Video de defensa del CORE principal: [Ingeniería Web 02 - 2024-01-20240106_105342-Meeting Recording.mp4](https://udlaec.sharepoint.com/:v:/r/sites/Section_3737491185/Shared%20Documents/General/Recordings/Ingenier%C3%ADa%20Web%2002%20-%202024-01-20240106_105342-Meeting%20Recording.mp4?csf=1&web=1&e=2OwajG&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)https://udlaec.sharepoint.com/:v:/r/sites/Section_3737491185/Shared%20Documents/General/Recordings/Ingenier%C3%ADa%20Web%2002%20-%202024-01-20240106_105342-Meeting%20Recording.mp4?csf=1&web=1&e=2OwajG&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-Video de defensa, Modificación CORE:
+Video de defensa, Modificación CORE: https://udlaec.sharepoint.com/:v:/r/sites/Section_3737491185/Shared%20Documents/General/Recordings/Ingenier%C3%ADa%20Web%2002%20-%202024-01-20240106_142136-Meeting%20Recording.mp4?csf=1&web=1&e=GFSf7s&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+
+Diagramas en la documentación del repositorio
